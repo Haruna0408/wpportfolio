@@ -729,6 +729,11 @@ footer p {
 
 .table-layout a {
 	text-decoration: underline;
+	display: inline-block;
+}
+.table-layout td .fa-external-link-alt {
+	display: inline-block;
+	margin-left: 5px;
 }
 
 /*works-top*/
@@ -798,6 +803,7 @@ footer p {
 .works-area h1 + p {
 	text-align: center;
 }
+
 
 /*-----------------------------------------------
 7.media Queries

@@ -651,7 +651,12 @@ footer p {
   border-bottom: solid 1px #eee; }
 
 .table-layout a {
-  text-decoration: underline; }
+  text-decoration: underline;
+  display: inline-block; }
+
+.table-layout td .fa-external-link-alt {
+  display: inline-block;
+  margin-left: 5px; }
 
 /*works-top*/
 .web-area, .dtp-area {
