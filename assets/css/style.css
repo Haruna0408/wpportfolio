@@ -660,7 +660,7 @@ footer p {
 
 .web-area .flex-box li,
 .dtp-area .flex-box li {
-  max-width: 500px;
+  max-width: 48%;
   margin: auto;
   position: relative; }
 
