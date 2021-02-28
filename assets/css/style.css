@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 
 h3 {
   margin: 2em 0 1em;
-  padding: 0 0 0 1%;
+  padding: 0 0 0 3%;
   border-left: 2px solid #595757;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -547,8 +547,14 @@ footer p {
   display: block;
   text-align: right; }
 
+.top-works-area .works-wrap {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 .top-works-area .flex-box li {
-  width: 50%;
+  width: 48%;
   position: relative; }
 
 .top-works-area .flex-box img {

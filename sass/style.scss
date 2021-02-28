@@ -105,7 +105,7 @@ h1,h2,h3,h4 {
 
 h3 {
 	margin: 2em 0 1em;
-	padding: 0 0 0 1%;
+	padding: 0 0 0 3%;
 	border-left: 2px solid #595757;
 	box-sizing: border-box;
 	font-size: 24px;
@@ -611,8 +611,12 @@ footer p {
 	text-align: right;
 }
 
+.top-works-area .works-wrap {
+	align-items: center;
+}
+
 .top-works-area .flex-box li{
-	width: 50%;
+	width: 48%;
 	position: relative;
 }
 
