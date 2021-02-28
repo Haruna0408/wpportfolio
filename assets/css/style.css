@@ -229,7 +229,7 @@ h5 {
 /*breadcrumb*/
 .breadcrumb {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto 60px; }
 
 .breadcrumb ol {
   max-width: 100%;
@@ -239,11 +239,15 @@ h5 {
 .breadcrumb ol li {
   position: relative;
   display: inline-block;
-  padding: 5px 13px 0 0; }
+  padding: 5px 13px 0 0;
+  font-size: 12px;
+  letter-spacing: 0.05em; }
 
 .bread-link {
   text-decoration: underline;
-  color: #333; }
+  color: #333;
+  font-size: 12px;
+  letter-spacing: 0.05em; }
 
 .breadcrumb ol li::after {
   position: absolute;
@@ -654,7 +658,8 @@ footer p {
 
 .web-area .flex-box li,
 .dtp-area .flex-box li {
-  width: 50%;
+  max-width: 500px;
+  margin: auto;
   position: relative; }
 
 .web-area h2,

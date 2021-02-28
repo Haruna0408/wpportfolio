@@ -47,13 +47,13 @@
 		color: #dfac44;
 	}
 
- .headline::after {
-	 position: absolute;
-	 bottom: -70%;
-	 left: 45%;
-	 content:'ー';
-	 color: #f7b52c;
- }
+	.headline::after {
+		position: absolute;
+		bottom: -70%;
+		left: 45%;
+		content:'ー';
+		color: #f7b52c;
+	}
 
 	h3 {
 	 margin: 40px 0 20px;
@@ -237,7 +237,7 @@
 
 	/* breadcrumb */
 	.breadcrumb {
-		padding: 30px 0 0;
+		padding: 40px 0 0;
 	}
 
 	.breadcrumb ol {
