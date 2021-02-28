@@ -396,9 +396,15 @@
   /*works-top*/
   .works-area .flex-box li {
     width: 100%; }
+  .web-area .flex-box li,
+  .dtp-area .flex-box li {
+    max-width: 100%;
+    margin: auto; }
   .works-area h1 {
     margin: 10% auto;
     font-size: 24px; }
+  .works-area h1 + p {
+    text-align: left; }
   /*.works-area .headline {
 		margin: 13% auto;
 	}
