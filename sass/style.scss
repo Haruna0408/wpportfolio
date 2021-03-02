@@ -551,6 +551,7 @@ footer p {
 .skill-area ul {
 	margin: 60px auto 80px;
 	text-align: center;
+	align-items: stretch;
 }
 
 .skill-area h4 {
@@ -568,7 +569,7 @@ footer p {
 
 .skill-area ul li {
 	width: 25%;
-	height: 400px;
+	min-height: 400px;
 	padding: 30px;
 	border: #dbdbdb 1px solid;
 	box-shadow: 2px 2px #dbdbdb;
@@ -822,15 +823,19 @@ footer p {
 	/*skill*/
 	.skill-area ul li {
 		width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    padding: 30px 7px;
-    border: #dbdbdb 1px solid;
-    box-shadow: 2px 2px #dbdbdb;
+		min-height: inherit;
+		margin-bottom: 30px;
+		padding: 30px 7px;
+		border: #dbdbdb 1px solid;
+		box-shadow: 2px 2px #dbdbdb;
 	}
 
 	.skill-area div.flex-box {
 		flex-wrap: nowrap;
+	}
+
+	.skill-area h4 {
+		text-align: left;
 	}
 
 	/*works*/
@@ -844,11 +849,10 @@ footer p {
 	/*skill*/
 	.skill-area ul li {
 		width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    padding: 30px 7px;
-    border: #dbdbdb 1px solid;
-    box-shadow: 2px 2px #dbdbdb;
+		margin-bottom: 30px;
+		padding: 30px 7px;
+		border: #dbdbdb 1px solid;
+		box-shadow: 2px 2px #dbdbdb;
 	}
 
 	.skill-area div.flex-box {

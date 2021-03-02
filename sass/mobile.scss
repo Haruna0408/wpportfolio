@@ -442,11 +442,13 @@
 	.skill-area ul {
 		margin: 20px auto 80px;
 		text-align: center;
+		align-items: stretch;
 	}
 
 	.skill-area h4 {
 		color: #dfac44;
 		margin-top: 0;
+		text-align: left;
 	}
 
 	.under-title {
@@ -460,7 +462,7 @@
 
 	.skill-area ul li {
 		width: 100%;
-		height: auto;
+		min-height: inherit;
 		margin-bottom: 30px;
 		padding: 30px 7px;
 		border: #dbdbdb 1px solid;
@@ -471,6 +473,7 @@
 		width: 100%;
 		margin: 0;
 		flex-wrap: nowrap;
+		align-items: stretch;
 	}
 
 	.skill-area .img-box,
@@ -483,7 +486,7 @@
 	}
 
 	.skill-area .img-box {
-		width: 50%;
+		width: 25%;
 		margin: auto;
 		background: #fff;
 	}
